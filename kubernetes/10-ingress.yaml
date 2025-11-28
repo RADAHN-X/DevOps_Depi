@@ -4,8 +4,20 @@ metadata:
   name: easyshop-ingress
   namespace: easyshop
   annotations:
-    alb.ingress.kubernetes.io/group.name: easyshop-only-lb  # غير هنا
+    alb.ingress.kubernetes.io/group.name: easyshop-only-lb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/backend-protocol: HTTP
-    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}]'  # استخدم HTTP فقط مؤقتاً
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}]'
+spec:
+  rules:
+  - host: easyshop.devopsdock.site
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: easyshop-service
+            port:
+              number: 80
