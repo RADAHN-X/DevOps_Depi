@@ -4,9 +4,48 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-8.1.1-green?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
 [![Redux](https://img.shields.io/badge/Redux-2.2.1-purple?style=flat-square&logo=redux)](https://redux.js.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=flat-square&logo=amazonaws)](https://aws.amazon.com/)
+[![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat-square&logo=terraform)](https://www.terraform.io/)
+[![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-326CE5?style=flat-square&logo=kubernetes)](https://kubernetes.io/)
+[![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-D24939?style=flat-square&logo=jenkins)](https://www.jenkins.io/)
+[![Helm](https://img.shields.io/badge/Helm-Package%20Manager-0F1689?style=flat-square&logo=helm)](https://helm.sh/)
+[![Nginx](https://img.shields.io/badge/Nginx-Server-009639?style=flat-square&logo=nginx)](https://nginx.org/)
 
-EasyShop is a modern, full-stack e-commerce platform built with Next.js 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
+EasyShop is a fully integrated e-commerce platform built to deliver a modern shopping experience that can compete with real-world commercial systems.
+The project is not just a frontend application—it’s a complete ecosystem that includes a professional UI, a robust backend, and a full cloud infrastructure on AWS using Terraform, Jenkins, and ArgoCD to achieve a fully automated CI/CD pipeline.
+
+## 🎯 Project Significance
+
+- Represents a real, scalable model of a production-ready e-commerce platform.
+
+- Demonstrates your ability to build a complete Production-Level system from scratch.
+
+- Highlights your skills in infrastructure design, server management, DevOps practices, and application security.
+
+- Integrates modern technologies including Next.js 14, TypeScript, MongoDB, EKS, Terraform, Jenkins, and ArgoCD.
+
+- A full end-to-end project suitable for showcasing in your CV and proving your expertise across Backend, Frontend, and DevOps.
+
+## 🧑‍💻 What I Did in This Project
+
+  - ✔ Developed the entire user interface using Next.js, TypeScript, and Tailwind CSS, with full responsiveness and dark mode support.
+
+  - ✔ Built the backend using Next.js API Routes with a complete JWT authentication system and secure endpoint protection.
+
+  - ✔ Designed and configured the MongoDB database with Mongoose models and full validation.
+
+  - ✔ Provisioned the entire AWS infrastructure from scratch using Terraform (VPC, EC2, EKS, IAM, Security Groups).
+
+  - ✔ Integrated Jenkins with GitHub to create a full CI pipeline (Build → Test → Docker Build → Push).
+
+  - ✔ Deployed the application to Kubernetes (EKS) with a Load Balancer and storage drivers using Helm charts.
+
+  - ✔ Enabled fully automated Continuous Deployment (CD) using ArgoCD, updating the cluster on every new push.
+
+  - ✔ Created GitHub Webhooks to ensure complete, automated integration between GitHub and Jenkins.
+
+  - ✔ Documented all setup and deployment steps to ensure the project can be deployed easily by anyone.
 
 ## ✨ Features
 
@@ -23,6 +62,9 @@ EasyShop is a modern, full-stack e-commerce platform built with Next.js 14, Type
 ## 🏗️ Architecture
 
 EasyShop follows a three-tier architecture pattern:
+
+### 📌 Architecture Diagram
+![Diagram](./public/diagram-export.png)
 
 ### 1. Presentation Tier (Frontend)
 - Next.js React Components
@@ -713,11 +755,6 @@ upgrade filebeat helm chart and check in kibana’s UI if the app logs are strea
 
 ## **Congratulations!** <br/>
 ![EasyShop Website Screenshot](./public/easyshop.png)
-
----
-
-### 📌 Architecture Diagram
-![Diagram](./public/diagram-export.png)
 
 ---
 
