@@ -712,42 +712,42 @@ filebeatConfig:
 upgrade filebeat helm chart and check in kibana’s UI if the app logs are streaming.
 
 ## **Congratulations!** <br/>
-![EasyShop Website Screenshot](./public/easyshop.JPG)
+![EasyShop Website Screenshot](./public/easyshop.png)
 
 ---
 
 ### 📌 Architecture Diagram
-![Diagram](./public/diagram-export.JPG)
+![Diagram](./public/diagram-export.png)
 
 ---
 
 ### 📌 ArgoCD
-![ArgoCD](./public/Argocd.JPG)
+![ArgoCD](./public/Argocd.png)
 
 ---
 
 ### 📌 Capture
-![Capture](./public/Capture.JPG)
+![Capture](./public/Capture.png)
 
 ---
 
 ### 📌 AlertManager
-![AlertManager](./public/alertManager.JPG)
+![AlertManager](./public/alertManager.png)
 
 
 ---
 
 ### 📌 Grafana Dashboard
-![Grafana](./public/grafana.JPG)
+![Grafana](./public/grafana.png)
 
 ---
 
 ### 📌 Kibana Logs View
-![Kibana](./public/kibana.JPG)
+![Kibana](./public/kibana.png)
 
 ---
 
 ### 📌 Prometheus Dashboard
-![Prometheus](./public/prometheus.JPG)
+![Prometheus](./public/prometheus.png)
 
 ### WO! ooo!!! ...Your project is now deployed.
