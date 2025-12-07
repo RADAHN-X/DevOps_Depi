@@ -787,4 +787,3 @@ upgrade filebeat helm chart and check in kibana’s UI if the app logs are strea
 ### 📌 Prometheus Dashboard
 ![Prometheus](./public/prometheus.png)
 
-### WO! ooo!!! ...Your project is now deployed.
